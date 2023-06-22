@@ -8,7 +8,7 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [ ] Building Project Structure From ScratchThe web application should have a responsive layout that adapts to different screen sizes and orientations. It should maintain a consistent user experience across devices.
 
-- [ ] Implement both light and dark modes in the application. Users should have the ability to switch between the two modes.
+- [x] Implement both light and dark modes in the application. Users should have the ability to switch between the two modes.
 
 - [ ] Utilize containers, rows, and columns appropriately to structure the content. Use the appropriate gutter sizes for spacing between columns.
 

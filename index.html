@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="dark">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -28,14 +28,80 @@
     <!-- Media Query -->
     <link rel="stylesheet" href="assets/css/media.css" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/media/img/logo/logo.webp" />
-
     <!-- Title -->
     <title>Bootstrap Web Application</title>
   </head>
 
   <body>
-    <h1>Bootstrap Web Application</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">Bootstrap Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="javascript:void(0)"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mode
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="light_id"
+                    href="javascript:void(0)"
+                  >
+                    <i class="fa fa-sun-o" aria-hidden="true"></i> Light
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    id="dark_id"
+                    href="javascript:void(0)"
+                  >
+                    <i class="fa fa-moon-o" aria-hidden="true"></i> Dark
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JS Links -->
+    <!-- Optional JavaScript -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.multilevelpushmenu.min.js"></script>
+    <script src="assets/js/covermode.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
