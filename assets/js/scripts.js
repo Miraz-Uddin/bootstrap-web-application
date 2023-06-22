@@ -9,4 +9,5 @@
       document.documentElement.setAttribute("data-bs-theme", "dark");
     }
   });
+  document.getElementById("year").innerHTML = new Date().getFullYear();
 })();

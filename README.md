@@ -12,9 +12,9 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [x] Utilize containers, rows, and columns appropriately to structure the content. Use the appropriate gutter sizes for spacing between columns.
 
-- [ ] Apply responsive design principles to ensure the application is mobile-friendly and displays correctly on different devices.
+- [x] Apply responsive design principles to ensure the application is mobile-friendly and displays correctly on different devices.
 
-- [ ] Use Bootstrap's typography classes to style the text content throughout the application. Pay attention to font sizes, styles, and spacing.
+- [x] Use Bootstrap's typography classes to style the text content throughout the application. Pay attention to font sizes, styles, and spacing.
 
 - [ ] Include relevant images to enhance the visual appeal of the application. Optimize the images for web use and ensure they are appropriately sized.
 
