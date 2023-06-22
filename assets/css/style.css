@@ -848,6 +848,27 @@ img {
 	category Start
 ==============================================*/
 
+/*==============================================
+	Banner Start
+==============================================*/
+#banner {
+    min-height: 50vh;
+}
+
+.banner_left {
+    background-color: red;
+    height: 300px;
+}
+
+.banner_right {
+    background-color: green;
+    height: 300px;
+}
+
+/*==============================================
+	Banner End
+==============================================*/
+
 #category {
     background: #ebebeb;
     position: sticky;
