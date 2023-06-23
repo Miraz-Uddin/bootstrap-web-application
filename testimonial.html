@@ -107,22 +107,28 @@
     <!-- Navbar Ends-->
 
     <!-- Banner Starts -->
-    <section id="banner">
-      <div class="container-md">
-        <div class="row g-2 text-center">
-          <div class="col-lg-6 col-md-7 col-sm-12">
-            <h1 class="display-6">PetClub</h1>
-            <h2 class="display-5">WE ARE HERE TO MAKE CHANGE.</h2>
-            <p class="lead">
-              PetClub is one of the premium online platforms in BD that provides
-              branded pet health care supplies at nominal rates. Our mission is
-              to improve your pet's health by delivering reliable, effective and
-              safe products at your doorstep.
-            </p>
-          </div>
+    <div class="container">
+      <table class="table table-hover table-striped table-responsive mt-5">
+        <thead>
+          <tr>
+            <th style="width: 10%">#</th>
+            <th style="width: 20%">Name</th>
+            <th style="width: 60%">Comment</th>
+            <th style="width: 10%">Action</th>
+          </tr>
+        </thead>
+        <tbody id="testimonial_data"></tbody>
+      </table>
+
+      <div class="row">
+        <div class="col m-auto">
+          <nav class="d-flex flex-row mb-3 justify-content-center">
+            <ul id="testimonial_pagination" class="pagination"></ul>
+          </nav>
         </div>
       </div>
-    </section>
+    </div>
+
     <!-- Banner Ends -->
 
     <!-- Footer Starts -->
@@ -141,5 +147,6 @@
     <script src="./assets/js/jquery.multilevelpushmenu.min.js"></script>
     <script src="./assets/js/covermode.js"></script>
     <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/testimonial.js"></script>
   </body>
 </html>

@@ -18,7 +18,7 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [ ] Include relevant images to enhance the visual appeal of the application. Optimize the images for web use and ensure they are appropriately sized.
 
-- [ ] Implement tables to display various league-related data. Include pagination to handle large data sets and ensure a smooth user experience.
+- [x] Implement tables to display various league-related data. Include pagination to handle large data sets and ensure a smooth user experience.
 
 - [ ] Create forms with appropriate input fields, labels, and validation where necessary. Use Bootstrap's form components and styles.
 

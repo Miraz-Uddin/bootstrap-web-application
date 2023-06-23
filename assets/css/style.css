@@ -89,6 +89,9 @@ img {
     padding: .75rem 0;
 }
 
+.page-link {
+    cursor: pointer !important;
+}
 
 #navbar {
     min-width: 480px;
