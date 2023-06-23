@@ -143,3 +143,63 @@ img {
     color: #fff;
     text-align: left;
 }
+
+#contact {
+    padding: 69px 0px 0px 0px;
+}
+
+#contact .contact_image {
+    padding: 68px 0px 0px 0px;
+}
+
+#contact form {
+    text-align: center;
+}
+
+#contact .form input {
+    width: 100%;
+    border: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #777777;
+    font-family: 'petclub_font_four_reg', sans-serif;
+    border: 2px solid #e9d7d7;
+    line-height: 45px;
+    border-radius: 3px;
+}
+
+#contact textarea {
+    width: 100%;
+    border: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #777777;
+    font-family: 'petclub_font_four_reg', sans-serif;
+    border: 2px solid #e9d7d7;
+    line-height: 45px;
+    border-radius: 3px;
+}
+
+#contact label {
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+#contact_button {
+    width: 200px;
+    font-size: 17px;
+    color: #ffffff;
+    background: #f05957;
+    font-family: 'petclub_font_three_semi_bold', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+.error {
+    width: 100%;
+    margin-top: 0 !important;
+    font-size: .875em;
+    color: #ea868f;
+}

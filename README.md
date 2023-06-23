@@ -1,12 +1,14 @@
 ## Bootstrap Web Application
 
+Click here to view [Website LIVE URL](https://bootstrap-web-application-by-miraz.netlify.app#LIVE-URL)
+
 ### Objective:
 
 Build a web application using Bootstrap version 5.The application should include various components and features related to Bootstrap's concepts such as light/dark mode, container, row, column, responsive layout, gutters, typography, images, table, form, alert, button, list group and spinner, progress bar, placeholders, pagination, canvas, modal, tab view, navbar, navbar positioning, aspect ratio, and utilities.
 
 ### Requirements:
 
-- [ ] Building Project Structure From ScratchThe web application should have a responsive layout that adapts to different screen sizes and orientations. It should maintain a consistent user experience across devices.
+- [x] Building Project Structure From ScratchThe web application should have a responsive layout that adapts to different screen sizes and orientations. It should maintain a consistent user experience across devices.
 
 - [x] Implement both light and dark modes in the application. Users should have the ability to switch between the two modes.
 
@@ -16,21 +18,21 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [x] Use Bootstrap's typography classes to style the text content throughout the application. Pay attention to font sizes, styles, and spacing.
 
-- [ ] Include relevant images to enhance the visual appeal of the application. Optimize the images for web use and ensure they are appropriately sized.
+- [x] Include relevant images to enhance the visual appeal of the application. Optimize the images for web use and ensure they are appropriately sized.
 
 - [x] Implement tables to display various league-related data. Include pagination to handle large data sets and ensure a smooth user experience.
 
-- [ ] Create forms with appropriate input fields, labels, and validation where necessary. Use Bootstrap's form components and styles.
+- [x] Create forms with appropriate input fields, labels, and validation where necessary. Use Bootstrap's form components and styles.
 
-- [ ] Incorporate alerts to provide important messages or notifications to the user.
+- [x] Incorporate alerts to provide important messages or notifications to the user.
 
-- [ ] Implement buttons and list groups where appropriate to enhance the user interface.
+- [] Implement buttons and list groups where appropriate to enhance the user interface.
 
 - [x] Use spinners and progress bars to indicate loading or processing states.
 
-- [ ] Utilize placeholders for input fields and other components to provide helpful hints or examples to the user.
+- [x] Utilize placeholders for input fields and other components to provide helpful hints or examples to the user.
 
-- [ ] Implement pagination to handle large datasets and allow users to navigate through different pages of content.
+- [x] Implement pagination to handle large datasets and allow users to navigate through different pages of content.
 
 - [ ] Utilize canvas to create interactive elements or visualizations related to sports leagues. This could include charts, graphs, or other visual representations.
 
@@ -40,6 +42,6 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [x] Include a responsive navbar with appropriate positioning and styling. The navbar should provide easy access to different sections or features of the application.
 
-- [ ] Ensure that aspect ratios of images and other media elements are maintained properly across different devices and screen sizes.
+- [x] Ensure that aspect ratios of images and other media elements are maintained properly across different devices and screen sizes.
 
 - [x] Utilize Bootstrap utilities and helper classes where necessary to achieve the desired layout and styling.
