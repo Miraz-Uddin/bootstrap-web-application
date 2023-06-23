@@ -1,6 +1,6 @@
 ## Bootstrap Web Application
 
-Click here to view [Website LIVE URL](https://bootstrap-web-application-by-miraz.netlify.app#LIVE-URL)
+Click here to view [Website LIVE URL](https://bootstrap-web-application-by-miraz.netlify.app)
 
 ### Objective:
 
