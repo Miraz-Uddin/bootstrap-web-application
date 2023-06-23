@@ -93,6 +93,13 @@ img {
     cursor: pointer !important;
 }
 
+.spinner-border-parent {
+    min-height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #navbar {
     min-width: 480px;
     width: 100% !important;

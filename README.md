@@ -26,7 +26,7 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [ ] Implement buttons and list groups where appropriate to enhance the user interface.
 
-- [ ] Use spinners and progress bars to indicate loading or processing states.
+- [x] Use spinners and progress bars to indicate loading or processing states.
 
 - [ ] Utilize placeholders for input fields and other components to provide helpful hints or examples to the user.
 
@@ -38,8 +38,8 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [ ] Use tab views to organize content and provide a better user experience for navigating between different sections or categories.
 
-- [ ] Include a responsive navbar with appropriate positioning and styling. The navbar should provide easy access to different sections or features of the application.
+- [x] Include a responsive navbar with appropriate positioning and styling. The navbar should provide easy access to different sections or features of the application.
 
 - [ ] Ensure that aspect ratios of images and other media elements are maintained properly across different devices and screen sizes.
 
-- [ ] Utilize Bootstrap utilities and helper classes where necessary to achieve the desired layout and styling.
+- [x] Utilize Bootstrap utilities and helper classes where necessary to achieve the desired layout and styling.

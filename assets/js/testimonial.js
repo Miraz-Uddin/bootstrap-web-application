@@ -1,3 +1,38 @@
+const spinner = `
+  <tr>
+    <td style="width:100%" colspan="5">
+      <div class="spinner-border-parent">
+        <div>
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+  `;
+
 function getTableRows(foundData) {
   let rows = "";
   for (let item of foundData) {
@@ -142,6 +177,7 @@ function createPageLink(link, title, state = "") {
 }
 
 async function getAPIData(currentPage = "1", limit = "7") {
+  document.querySelector("#testimonial_data").innerHTML = spinner;
   let linkHeader = "";
   let foundData = "";
   var apiUrl = `https://jsonplaceholder.typicode.com/comments?_page=${currentPage}&_limit=${limit}`;
@@ -156,12 +192,11 @@ async function getAPIData(currentPage = "1", limit = "7") {
     .catch((err) => {
       console.log(err);
     });
-  document.querySelector("#testimonial_pagination").innerHTML = paginatedData(
-    linkHeader,
-    currentPage
-  );
+  document.querySelector("#testimonial_pagination").innerHTML =
+    (foundData && linkHeader && paginatedData(linkHeader, currentPage)) ||
+    spinner;
   document.querySelector("#testimonial_data").innerHTML =
-    getTableRows(foundData);
+    (foundData && linkHeader && getTableRows(foundData)) || spinner;
   return { linkHeader, foundData };
 }
 
