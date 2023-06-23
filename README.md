@@ -34,7 +34,7 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [ ] Utilize canvas to create interactive elements or visualizations related to sports leagues. This could include charts, graphs, or other visual representations.
 
-- [ ] Implement modal windows to display additional information, confirmations, or user interactions.
+- [x] Implement modal windows to display additional information, confirmations, or user interactions.
 
 - [ ] Use tab views to organize content and provide a better user experience for navigating between different sections or categories.
 

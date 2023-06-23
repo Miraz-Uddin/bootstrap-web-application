@@ -1,17 +1,35 @@
 function getTableRows(foundData) {
   let rows = "";
-  for (let i of foundData) {
-    const { id, email, body } = i;
+  for (let item of foundData) {
+    const { id, email, body } = item;
+    const name = email
+      .replace(/[\s~`!#$%^&*()_+\-={[}\]|\\:;"'<,>.?/]+/g, " ")
+      .split("@")?.[0];
+    const comment = body
+      ? body.length > 50
+        ? body.substr(0, 50) + "..."
+        : body
+      : "";
     const str = `
       <tr>
         <td style="width:10%">${id}</td>
-        <td style="width:20%">${
-          email
-            .replace(/[\s~`!#$%^&*()_+\-={[}\]|\\:;"'<,>.?/]+/g, " ")
-            .split("@")?.[0]
-        }</td>
-        <td style="width:60%" >${body}</td>
-        <td style="width:10%"><button id=${id} type="button" class="btn btn-outline-info">View</button></td>
+        <td style="width:15%">${name}</td>
+        <td style="width:20%">${email.toLowerCase()}</td>
+        <td style="width:45%" >${comment}</td>
+        <td style="width:10%">
+          <button
+            id=${id} 
+            type="button" 
+            onclick="clickViewButton(this)" 
+            class="btn btn-outline-info" 
+            data-name="${name}"  
+            data-email="${email.toLowerCase()}"  
+            data-body="${body}"  
+            data-bs-toggle="modal" 
+            data-bs-target="#testimonialModal">
+              View
+          </button>
+        </td>
       </tr>
       `;
     rows += str;
@@ -151,6 +169,15 @@ async function clickButton(el) {
   const url = new URL(el.dataset.ref);
   const pageNumber = url.searchParams.get("_page");
   await getAPIData(pageNumber);
+}
+
+function clickViewButton(el) {
+  const { name, email, body } = el.dataset;
+  document.querySelector("#testimonialModalLabel").innerHTML =
+    "Comment ID #" + el.id;
+  document.querySelector("#testimonialModalName").innerHTML = name;
+  document.querySelector("#testimonialModalEmail").innerHTML = email;
+  document.querySelector("#testimonialModalComment").innerHTML = body;
 }
 
 (async () => {
