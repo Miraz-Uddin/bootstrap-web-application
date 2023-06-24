@@ -148,8 +148,9 @@ img {
     padding: 69px 0px 0px 0px;
 }
 
-#contact .contact_image {
-    padding: 68px 0px 0px 0px;
+.contact_image {
+    display: flex;
+    align-items: center;
 }
 
 #contact form {
@@ -202,4 +203,29 @@ img {
     margin-top: 0 !important;
     font-size: .875em;
     color: #ea868f;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+.list-group-tick {
+    margin-right: 20px;
+}
+
+.list-group-tick i {
+    font-size: 25px;
+    color: #fff;
+    background-color: #ea868f;
+    border: 1px solid #ea868f;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+[data-bs-theme=dark] .list-group-tick i {
+    color: #ce5d67;
+    background-color: #fff;
+    border: 1px solid #fff;
 }

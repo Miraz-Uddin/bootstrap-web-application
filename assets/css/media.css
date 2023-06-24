@@ -79,6 +79,12 @@
         background-position: initial;
         padding: 100px 0;
     }
+
+    .contact_image {
+        display: flex;
+        align-items: center;
+        padding: 68px 0px 0px 0px;
+    }
 }
 
 

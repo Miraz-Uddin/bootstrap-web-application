@@ -26,7 +26,7 @@ Build a web application using Bootstrap version 5.The application should include
 
 - [x] Incorporate alerts to provide important messages or notifications to the user.
 
-- [] Implement buttons and list groups where appropriate to enhance the user interface.
+- [x] Implement buttons and list groups where appropriate to enhance the user interface.
 
 - [x] Use spinners and progress bars to indicate loading or processing states.
 
